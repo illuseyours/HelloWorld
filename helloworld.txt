@@ -1,0 +1,21 @@
+// using statements are placed at the top
+using System;  
+
+// namespace's are a container for classes
+namespace HelloWorldNameSpace {  
+
+    // classes are a container for methods
+    class HelloWorldClass {  
+
+	// methods are containers for code blocks
+        static void Main(string[] args)  
+        {  
+	    // variable definition
+	    // (type) (variable name) (assignment) (value) (end statement)
+	    int age = 1;
+
+	    // writes hello world
+            Console.WriteLine("Hello, World!");
+        }  
+    }  
+}  
